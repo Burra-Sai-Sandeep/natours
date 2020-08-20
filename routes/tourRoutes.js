@@ -44,8 +44,8 @@ router
     authController.protect,
     authController.restrictTo('admin', 'lead-guide'),
     tourController.uploadTourImages,
-    // tourController.resizeTourImages,
-    tourController.addFileName,
+    tourController.resizeTourImages,
+    // tourController.addFileName,
     tourController.updateTour
   )
   .delete(
